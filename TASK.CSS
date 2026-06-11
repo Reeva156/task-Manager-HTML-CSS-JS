@@ -6,7 +6,7 @@
     text-align: center;
   }
 
-  /* Inputs */
+
   input, select {
     padding: 10px;
     margin: 8px;
@@ -20,7 +20,6 @@
     border-color: #4CAF50;
   }
 
-  /* Save button */
   button {
     padding: 10px 15px;
     margin: 10px;
@@ -35,12 +34,10 @@
     background: #45a049;
   }
 
-  /* Filter + Search section spacing */
   #filter, #search {
     display: inline-block;
   }
 
-  /* Task list container */
   #taskList {
     margin-top: 20px;
     display: flex;
@@ -48,7 +45,7 @@
     align-items: center;
   }
 
-  /* Each task card */
+  
   #taskList div {
     background: white;
     width: 60%;
@@ -59,19 +56,16 @@
     text-align: left;
   }
 
-  /* Task title */
   #taskList h3 {
     margin: 0;
     color: #333;
   }
 
-  /* Task text */
   #taskList p {
     margin: 5px 0;
     color: #666;
   }
 
-  /* Edit button */
   #taskList button {
     padding: 6px 10px;
     margin-right: 5px;
@@ -82,7 +76,6 @@
     color: white;
   }
 
-  /* Delete button (second button) */
   #taskList button:last-child {
     background: #f44336;
   }
